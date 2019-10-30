@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.logo {
+	width:100px;
+}
+
+nav {
+	display: inline-block;
+	width: 80%;
+}
+
+nav a {
+	margin:0 40px;
+	color: lightslategray;
+}
+
+.nav-box {
+	display:inline-block;
+
+}
+
+.box {
+	display:inline-block;
+	/* border:solid black 1px; */
+}
+
+body {
+	margin:0px 20%;
+	/* border:solid black 1px; */
+	max-width: 100%;
+}
+
+.slogan {
+	font-size: 65px;
+	text-align: center;
+	/* border:solid 1px black; */
+}
+
+div.box > img {
+	width:228px;
+}
+
+.getstarted {
+	border:1px solid gray;
+	width: 180px;
+	text-align:center;
+	margin: 0 auto;
+	padding:5px;
+}
+
+.center{
+	text-align:center;
+}
+
+p {
+	letter-spacing: 1.5px;
+	word-spacing: 2px;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.paragraph {
+	width:30%;
+	margin:15px;
+}
+
+.middle-img {
+	width:100%;
+}
+
+footer {
+	text-align:center;
+}
+
+.body1-wrapper {
+	text-align:center;
+}
+
+#slogan-box div{
+	display:inline-block;
+	width:55%;
+}
